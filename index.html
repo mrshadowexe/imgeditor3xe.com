@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3xe Img Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>IMG EDITOR</h1>
+    <div class="toolbar">
+        <label>Color: <input type="color" id="colorPicker"></label>
+        <label>Brush Size: 
+            <input type="range" id="brushSize" min="2" max="20" value="5">
+        </label>
+        <button id="eraser">Eraser</button>
+        <button id="clearCanvas">Clear</button>
+        <button id="saveImage">Download</button>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
